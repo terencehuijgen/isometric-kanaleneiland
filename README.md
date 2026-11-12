@@ -1,3 +1,17 @@
+# Isometrisch Kanaleneiland, Utrecht
+
+Aparte kaart van Kanaleneiland met de Churchilllaan als beginpunt. Gebied: 2,5 × 3 kilometer, RD New (EPSG:28992), (133500,452500)–(136000,455500).
+
+Gebaseerd op Isometric Helenaveen van @jankeesvw. De oorspronkelijke pipelinebeschrijving staat hieronder. Zie DATA-LICENSES.md voor bronnen en bewerkingen.
+
+Bouwen: `./build.sh`; met bestaande downloads: `SKIP_FETCH=1 ./build.sh`.
+Bekijken: `python3 -m http.server 8000 -d site`.
+Publiceren naar de eigen repository: `./deploy.sh`.
+
+Adresindex: Utrechtse postcodes 3521, 3526, 3527, 3528, ruimtelijk beperkt tot het kaartgebied.
+
+---
+
 # Isometric Helenaveen
 
 Hi, I'm [@jankeesvw](https://x.com/intent/follow?screen_name=jankeesvw) on X. I rebuilt my village Helenaveen in isometric pixel art, with Claude Code and nothing but open data. See it live at [jankeesvw.github.io/isometric-helenaveen](https://jankeesvw.github.io/isometric-helenaveen/).
